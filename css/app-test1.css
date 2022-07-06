@@ -1,0 +1,221 @@
+.trade{
+    /*margin-top: 3.1rem;*/
+    /*margin-bottom: 3.2rem;*/
+    width: 98rem;
+    height: 13.3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.trade .trade-img{
+    position: absolute;
+    right: 7.5rem;
+    top: 1rem;
+}
+.trade .trade-content1{
+    display: flex;
+    flex-direction: row;
+}
+.trade .trade-content2{
+    display: flex;
+    flex-direction: row;
+}
+.trade .content-img{
+    margin-right: 1.4rem;
+    width: 5rem;
+    height: 5rem;
+}
+.trade .trade-txt{
+    font-family: PingFangSC-Regular;
+    font-size: 2.8rem;
+    color: #333333;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 5rem;
+}
+.rectangle{
+    width: 98rem;
+    height: 6rem;
+    background: #FFF7F2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.rectangle .rectangle-img1{
+    margin-left: 3rem;
+    margin-right: 2rem;
+    width: 4rem;
+    height: 4rem;
+}
+.rectangle .rectangle-img2{
+    width: 1.2rem;
+    height: 2.4rem;
+}
+.rectangle .rectangle-txt{
+    font-family: PingFangSC-Regular;
+    font-size: 2.6rem;
+    color: #000000;
+    letter-spacing: 0;
+    width: 21.5rem;
+    height: 3.7rem;
+    margin-right: 63.2rem;
+}
+.advert{
+    width: 85rem;
+    height: 6.6rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    background: #F6FAFF;
+    border-radius: 4rem;
+}
+.advert .advert-img{
+    width: 12rem;
+    height: 3.8rem;
+    margin-left: 3.5rem;
+    margin-right: 3rem;
+}
+.advert .advert-txt{
+    width: 33rem;
+    height: 4rem;
+    font-family: PingFangSC-Regular;
+    font-size: 28px;
+    color: #333333;
+    letter-spacing: 0;
+}
+.blank-space1{
+    margin-top: 1rem;
+    width: 98rem;
+    height: 1.8rem;
+    background: #F2F4F8;
+}
+.title1{
+    width: 25.6rem;
+    height: 4.5rem;
+    font-family: PingFangSC-Semibold;
+    font-size: 32px;
+    color: #000000;
+    letter-spacing: 0;
+    margin: 2.7rem 46.4rem 2.8rem 6.5rem;
+}
+.reveal1{
+    width: 98rem;
+    height: 6rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #F8F9FB;
+    font-family: PingFangSC-Regular;
+    font-size: 26px;
+    color: #858C9E;
+    text-align: right;
+}
+.reveal1 .reveal1-asset{
+    margin-left: 29rem;
+    margin-right: 42.5rem;
+}
+/* .reveal1 .reveal1-income{
+    
+} */
+.display-group{
+    width: 98rem;
+    height: 12.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.display-group .display-group-papaw{
+    position: absolute;
+    left: 28.5rem;
+    top: 1.1rem;
+    background: #ECF4FF;
+    border-radius: 1.5rem 1.5rem 1.5rem 0;
+    font-family: PingFangSC-Medium;
+    font-size: 2rem;
+    color: #4A98FF;
+    letter-spacing: 0;
+}
+.display-group .display-group1{
+    height: 4.2rem;
+    /* width: 47.8rem; */
+    display: flex;
+    flex-direction: row;
+}
+.display-group .display-group2{
+    height: 4.2rem;
+    /* width: 31.7rem; */
+    float: right;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.display-group .display-group-txt{
+    font-family: PingFangSC-Regular;
+    font-size: 3rem;
+    color: #000000;
+    letter-spacing: 0;
+    margin-left: 6.5rem;
+    margin-right: 10rem;
+}
+.display-group .display-group-num{
+    font-family: PingFangSC-Medium;
+    font-size: 2.8rem;
+    color: #292F3C;
+    letter-spacing: 0;
+}
+.display-group .display-group-reg{
+    margin-right: 11rem;
+    font-family: PingFangSC-Medium;
+    font-size: 2.8rem;
+    color: #0DB14B;
+    letter-spacing: 0;
+    text-align: right;
+}
+.display-group .display-group-img{
+    margin-right: 3.5rem;
+    color: #858C9E;
+    width: 1.3rem;
+    height: 2.4rem;
+}
+.blank-space2{
+    height: 0.1rem;
+    width: 98rem;
+    background: #E5E7EC;
+}
+.blank-space3{
+    height: 1.8rem;
+    width: 98rem;
+    background: #F2F4F8;
+}
+.more{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.more .more-txt{
+    margin: 3rem 2rem 3rem 43.15rem;
+    font-family: PingFangSC-Regular;
+    font-size: 26px;
+    color: #858C9E;
+    text-align: right;
+}
+.more .more-img{
+    color: #858C9E;
+    width: 1.3rem;
+    height: 2.4rem;
+}
+.title2{
+    width: 25.6rem;
+    height: 4.5rem;
+    font-family: PingFangSC-Medium;
+    font-size: 3rem;
+    color: #000000;
+    letter-spacing: 0;
+    margin: 2.7rem 46.4rem 2.8rem 6.5rem;
+}

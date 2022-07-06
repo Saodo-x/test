@@ -1,0 +1,186 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.bg_blue{
+	width: 98rem;
+	height: 40rem;
+	background-image: linear-gradient(151deg, #4A98FF 20%, #2B71E0 100%);
+}
+.bg_blue .head{
+	margin-top: 0.1rem;
+	height: 3.3rem;
+	/* background-color: red; */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	color: #FFFFFF;
+}
+.bg_blue .head .head-1{
+	/* background-color: black; */
+	height: 3.3rem;
+	width: 17.2rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	font-family: PingFangSC-Medium;
+	font-size: 2.4rem;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	text-align: left;
+
+}
+.bg_blue .head .head-2{
+	/* background-color: black; */
+	margin-right: 5.5rem;
+	text-align: center;
+	line-height: 3.3rem;
+	font-family: PingFangSC-Medium;
+	font-size: 2.4rem;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	text-align: center;
+}
+.bg_blue .head .head-3{
+	/* background-color: black; */
+	height: 3.3rem;
+	width: 11.5rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	font-family: PingFangSC-Medium;
+	font-size: 2.4rem;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	text-align: right;
+}
+.bg_blue .financing{
+	margin: 2.6rem auto 3.5rem;
+	width: 14.4rem;
+	height: 4.5rem;
+	font-family: PingFangSC-Medium;
+	font-size: 3.2rem;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 4.5rem;
+}
+.bg_blue .content-y{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.bg_blue .content-y .con1{
+	font-family: PingFangSC-Regular;
+	font-size: 2.6rem;
+	color: #B7D0F5;
+	letter-spacing: 0;
+	margin-left: 3rem;
+}
+.bg_blue .content-y .con2{
+	margin-left: 1rem;
+	text-align: center;
+	line-height: 2.4rem;
+	width: 2.4rem;
+	height: 2.4rem;
+	border: 1px solid #B5D5FE;
+	border-radius: 100%;
+	font-family: PingFangSC-Regular;
+	font-size: 2rem;
+	color: #B5D5FE;
+}
+.bg_blue .money{
+	margin: 0.5rem auto 1.2rem;
+	width: 28.2rem;
+	height: 8.4rem;
+	font-family: PingFangSC-Medium;
+	font-size: 6rem;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	line-height: 8.4rem;
+	text-align: center;
+}
+.bg_blue hr{
+	width: 63rem;
+	background: #73A6F1;
+	height: 0.1rem;
+	border: 0;
+	margin: 0 auto 1.4rem;
+}
+.bg_blue .income{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.bg_blue .income .new-income{
+	height: 8.3rem;
+	width: 22.1rem;
+}
+.bg_blue .income .new-income .new-txt{
+	margin-bottom: 0.1rem;
+	width: 22.1rem;
+	height: 3.7rem;
+	font-family: PingFangSC-Regular;
+	font-size: 2.6rem;
+	color: #B7D0F5;
+	letter-spacing: 0;
+}
+.bg_blue .income .new-income .new-num{
+	width: 8.6rem;
+	height: 4.5rem;
+	font-family: PingFangSC-Medium;
+	font-size: 3.2rem;
+	color: #FFFFFF;
+	letter-spacing: 0;
+}
+.bg_blue .income .all-income{
+	height: 8.3rem;
+	width: 16.4rem;
+}
+.bg_blue .income .all-income .all-txt{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 17.4rem;
+	height: 3.7rem;
+	margin-bottom: 0.1rem;
+}
+.bg_blue .income .all-income .all-txt .all-income1{
+	font-family: PingFangSC-Regular;
+	font-size: 2.6rem;
+	color: #B7D0F5;
+	letter-spacing: 0;
+	width: 13rem;
+	height: 3.7rem;
+}
+.bg_blue .income .all-income .all-txt .all-income2{
+	margin-left: 1rem;
+	text-align: center;
+	line-height: 2.4rem;
+	width: 2.4rem;
+	height: 2.4rem;
+	font-family: PingFangSC-Regular;
+	font-size: 2rem;
+	color: #B5D5FE;
+	border: 0.1rem solid #B5D5FE;
+	border-radius: 100%;
+}
+.bg_blue .income .all-income .all-num{
+	width: 8.5rem;
+	height: 4.5rem;
+	font-family: PingFangSC-Medium;
+	font-size: 3.2rem;
+	color: #FFFFFF;
+	letter-spacing: 0;
+}
+.bg_blue .income .x-income{
+	height: 3rem;
+	width: 0.1rem;
+	transform: scaleX(-1);
+	background: #73A6F1;
+	/*border: none;*/
+}

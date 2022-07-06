@@ -1,0 +1,94 @@
+.recommend{
+    height: 15.4rem;
+    width: 98rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 3.1rem;
+    border-top: 0.1rem solid #E5E7EC;
+    border-bottom: 0.1rem solid #E5E7EC;
+}
+.recommend .recommend-line{
+    background: #E4E7EC;
+    width: 0.1rem;
+    height: 8.4rem;
+}
+.recommend .recommend-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 8rem;
+    margin-right: 10rem;
+}
+.recommend .recommend-right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10rem;
+}
+.recommend .recommend-left .left-num{
+    font-family: PingFangSC-Semibold;
+    font-size: 4rem;
+    color: #FF3D00;
+}
+.recommend .recommend-left .left-txt{
+    font-family: PingFangSC-Regular;
+    font-size: 2.6rem;
+    color: #858C9E;
+}
+.recommend .recommend-right .right-txt1{
+    font-family: PingFangSC-Medium;
+    font-size: 3.2rem;
+    color: #000000;
+}
+.recommend .recommend-right .right-txt2{
+    font-family: PingFangSC-Regular;
+    font-size: 2.8rem;
+    color: #858C9E;
+}
+.advert1{
+    width: 85rem;
+    height: 14.8rem;
+    background-image: linear-gradient(270deg, #4A98FF 0%, #0973FF 100%);
+    border-radius: 0.8rem;
+    margin: 0 auto 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.advert1 .advert1-left{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.advert1 .advert1-right{
+    font-family: PingFangSC-Medium;
+    font-size: 2.8rem;
+    color: #4A98FF;
+    letter-spacing: 0;
+    background: #FFFFFF;
+    border-radius: 2.5rem;
+    padding: 0.5rem 2rem;
+}
+.advert1 .advert1-left .advert1-left-txt1{
+    display: flex;
+    flex-direction: row;
+}
+.advert1 .advert1-left .advert1-left-txt1 .advert1-left-img{
+    margin-right: 1.2rem;
+}
+.advert1 .advert1-left .advert1-left-txt1 .advert1-left-con{
+    font-family: PingFangSC-Medium;
+    font-size: 3.2rem;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 4.6rem;
+}
+.advert1 .advert1-left .advert1-left-txt2{
+    opacity: 0.8;
+    font-family: PingFangSC-Regular;
+    font-size: 2.6rem;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 3.6rem;
+}
